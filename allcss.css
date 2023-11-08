@@ -1,0 +1,35 @@
+
+.logo-image {
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.navbar-nav{
+    padding: 0.5rem 1rem; 
+}
+
+.nav-link {
+    padding: 0.5rem 1rem; 
+    font-weight: bold;
+    font-size: 2.2vh;
+    margin-right: 1.0rem;
+    margin-left: 1.0rem;
+}
+.navbar {
+    padding: 0.8rem; 
+    background-color: black;
+}
+
+.row{
+    border: 3px solid grey;
+    border-radius: 3vh;
+    padding: 20px;
+}
+
+.row{
+    align-items: center;
+    margin-left: 2vw;
+    margin-right: auto;
+}
