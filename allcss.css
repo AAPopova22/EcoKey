@@ -23,13 +23,7 @@
 }
 
 .row{
-    border: 3px solid grey;
+    
     border-radius: 3vh;
     padding: 20px;
-}
-
-.row{
-    align-items: center;
-    margin-left: 2vw;
-    margin-right: auto;
 }
