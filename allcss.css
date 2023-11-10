@@ -1,4 +1,6 @@
-
+body{
+    overflow-x: hidden; 
+}
 .logo-image {
     width: 70px;
     height: 70px;
@@ -26,4 +28,8 @@
     
     border-radius: 3vh;
     padding: 20px;
+}
+.bestsell{
+    text-align: center;
+    font-weight: bolder;
 }
