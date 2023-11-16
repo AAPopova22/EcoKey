@@ -33,3 +33,9 @@ body{
     text-align: center;
     font-weight: bolder;
 }
+footer{
+    background-color: #749074;
+    color: #c0cdc0;
+    text-decoration: none;
+    font-weight: bold;
+}
