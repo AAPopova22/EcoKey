@@ -40,11 +40,9 @@ footer{
     font-weight: bold;
 }
 .btn{
-    margin-left: 53vw;
+    margin-top: 0vh;
 }
 .dropdown-menu{
-    margin-left: 53vw;
-}
-#dropdownMenuButton1{
-    margin-top: 0.5vh;
+    padding-bottom: 0vh;
+    padding-top: 0vh;
 }
