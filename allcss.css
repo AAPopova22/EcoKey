@@ -39,3 +39,12 @@ footer{
     text-decoration: none;
     font-weight: bold;
 }
+.btn{
+    margin-left: 53vw;
+}
+.dropdown-menu{
+    margin-left: 53vw;
+}
+#dropdownMenuButton1{
+    margin-top: 0.5vh;
+}
