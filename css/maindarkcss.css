@@ -1,0 +1,30 @@
+body{
+    background-color: #777777;
+}
+.navbar-expand-lg{
+    background-color: #333333;  
+    margin: auto;
+}
+.dropdown-item{
+    background-color: gainsboro; 
+    font-weight: bold;
+}
+.card{
+    border: solid 3px black;
+    border-radius: 1vh;
+    padding: 0;
+    margin-top: 1%; 
+    background-color: gainsboro;
+}
+.g-0{
+    padding: 0;
+}
+.footertext{
+    color: #c0cdc0;
+}
+footer{
+    background-color: #333333;
+}
+.listfoot{
+    text-decoration: none; color: #c0cdc0;
+}

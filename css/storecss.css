@@ -1,0 +1,26 @@
+.dropdown-item{
+    background-color: gainsboro; 
+    font-weight: bold;
+}
+.card{
+    border: solid 3px black;
+     border-radius: 1vh; 
+     padding: 0; 
+     margin-top: 1%; 
+     margin-left: 1vw;
+     font-weight: bold;
+}
+.card-title{
+    font-size: 2.5vh;
+    font-weight: bold;
+}
+.cardtext{
+    font-weight: bold;
+}
+.footertext{
+    color: #c0cdc0;
+}
+.listtext{
+    text-decoration: none;
+    color: #c0cdc0;
+}
