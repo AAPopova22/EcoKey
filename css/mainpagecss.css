@@ -13,6 +13,15 @@
 .animation{
     margin-top: 8vh; width: 100%; height: 25vh; border: 3px solid black;
 }
+
+.rounded{
+    text-align: center; margin-left: auto; margin-right: auto; width: 80%; height: 60vh; background-color:#749074; color: #bcd4bc; margin-top: 10vh; margin-bottom: 10vh;
+}
+.Ecotext{
+    text-align: right;
+     font-size: 3vh; 
+     padding-right: 30vh;
+}
 .footertext{
     color: #c0cdc0;
 }
