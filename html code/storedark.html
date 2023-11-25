@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/css/storedark.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/aljs.js"></script>
+    <script src="/storejs.js"></script>
     <!-- Website icon and title on the webbrowser bar-->
     <link rel = "icon" href ="/images/Logo.png.png" type = "image/x-icon"> 
     <title>EcoKey</title>
@@ -51,6 +52,7 @@
                           <li><a class="dropdown-item" href="#" >E c o  G r e e n</a></li>
                           <li><a class="dropdown-item" href="#" >Light</a></li>
                           <li><a class="dropdown-item active" href="#">Dark</a></li>
+                          <li><a class="dropdown-item" href="/backend.html" >backend</a></li>
                         </ul>
                       </div>
                 </div>
@@ -61,30 +63,34 @@
     <div class="container-fluid">
         <div class="row justify-content-evenly">
             <div class="card mb-3" style="max-width: 550px;">
-              <button onclick="openPopup(1)"><img src="https://m.media-amazon.com/images/I/71BFmrxsOVS._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Keycaps"></button>
-              <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text">69.4$</p>
-              </div>
-          </div>
+                <button onclick="openPopup(1)"><img src="https://m.media-amazon.com/images/I/71BFmrxsOVS._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Keycaps"></button>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">69.4$</p>
+                </div>
+            </div>
 
-          <div class="overlay hidden" id="popupOverlay-1" onclick="closePopup(1)">
-            <div class="popup" id="popup">
-                <div class="row g-0">
-                    <div class="col-lg-8">
-                        <img src="https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015" class="img-fluid rounded-start" alt="a great image">
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card-body">
-                            <h3 class="card-title" style="font-weight: bold;">Card title</h3>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text" style="font-weight: bold;">34.99$</p>
+            <div class="overlay hidden" id="popupOverlay-1" >
+                <div class="popup rounded" id="popup-1">
+                    <div class="row g-0">
+                        <div class="col-lg-8">
+                            <div class="imgContainer">
+                               <button class="arrowButton leftArrow" onclick="displayImageCard1(-1)">&lt;</button>
+                                <img id="imgCard1" src="https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015" class="img-fluid" class="slideshowImage"  alt="a great image">
+                               <button class="arrowButton rightArrow" onclick="displayImageCard1(1)">&gt;</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" onclick="closePopup(1)">
+                            <div class="card-body">
+                                <h3 class="card-title" style="font-weight: bold;">Card title</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text" style="font-weight: bold;">34.99$</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
           <div class="card mb-3" style="max-width: 550px;">
             <button onclick="openPopup(2)"><img src="https://m.media-amazon.com/images/I/71BFmrxsOVS._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Keycaps"></button>
@@ -95,22 +101,26 @@
             </div>
         </div>
 
-        <div class="overlay hidden" id="popupOverlay-2" onclick="closePopup(2)">
-          <div class="popup" id="popup">
-              <div class="row g-0">
-                  <div class="col-lg-8">
-                      <img src="https://dangkeebs.com/cdn/shop/products/4_7968cec5-c90c-4ecb-8304-def92633ba7c.jpg?v=1681026570&width=1946" class="img-fluid rounded-start" alt="a great image">
-                  </div>
-                  <div class="col-lg-4">
-                      <div class="card-body">
-                          <h3 class="card-title" style="font-weight: bold;">Card title</h3>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text" style="font-weight: bold;">34.99$</p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
+        <div class="overlay hidden" id="popupOverlay-2" >
+            <div class="popup rounded" id="popup-2">
+                <div class="row g-0">
+                    <div class="col-lg-8">
+                        <div class="imgContainer">
+                           <button class="arrowButton leftArrow" onclick="displayImageCard2(-1)">&lt;</button>
+                            <img id="imgCard2" src="https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015" class="img-fluid" class="slideshowImage"  alt="a great image">
+                           <button class="arrowButton rightArrow" onclick="displayImageCard2(1)">&gt;</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" onclick="closePopup(2)">
+                        <div class="card-body">
+                            <h3 class="card-title" style="font-weight: bold;">Card title</h3>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text" style="font-weight: bold;">34.99$</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
             <div class="card mb-3" style="max-width: 550px;">
               <button onclick="openPopup(3)"><img src="https://m.media-amazon.com/images/I/71BFmrxsOVS._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Keycaps"></button>
               <div class="card-body">
@@ -121,22 +131,28 @@
           </div>
     </div>
   
-    <div class="overlay hidden" id="popupOverlay-3" onclick="closePopup(3)">
-      <div class="popup" id="popup">
-          <div class="row g-0">
-              <div class="col-lg-8">
-                  <img src="https://cannonkeys.com/cdn/shop/products/6_a0d92262-86f9-4b65-af07-fab5a9365792.jpg?v=1699889055" class="img-fluid rounded-start" alt="a great image">
-              </div>
-              <div class="col-lg-4">
-                  <div class="card-body">
-                      <h3 class="card-title" style="font-weight: bold;">Card title</h3>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text" style="font-weight: bold;">34.99$</p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
+    <div class="overlay hidden" id="popupOverlay-3" >
+        <div class="popup rounded" id="popup-3">
+            <div class="row g-0">
+                <div class="col-lg-8">
+                    <div class="imgContainer">
+                       <button class="arrowButton leftArrow" onclick="displayImageCard3(-1)">&lt;</button>
+                        <img id="imgCard3" src="https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015" class="img-fluid" class="slideshowImage"  alt="a great image">
+                       <button class="arrowButton rightArrow" onclick="displayImageCard3(1)">&gt;</button>
+                    </div>
+                </div>
+                <div class="col-lg-4" onclick="closePopup(3)">
+                    <div class="card-body">
+                        <h3 class="card-title" style="font-weight: bold;">Card title</h3>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text" style="font-weight: bold;">34.99$</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
   <div class="container-fluid">
     <div class="row justify-content-evenly">
         <div class="card mb-3" style="max-width: 550px;">
@@ -148,13 +164,17 @@
           </div>
       </div>
 
-      <div class="overlay hidden" id="popupOverlay-4" onclick="closePopup(4)">
-        <div class="popup" id="popup">
+      <div class="overlay hidden" id="popupOverlay-4" >
+        <div class="popup rounded" id="popup-4">
             <div class="row g-0">
                 <div class="col-lg-8">
-                    <img src="https://cannonkeys.com/cdn/shop/files/7_bed8739b-1d45-41ea-ab67-9de3556a0fbc.jpg?v=1699889055" class="img-fluid rounded-start" alt="a great image">
+                    <div class="imgContainer">
+                       <button class="arrowButton leftArrow" onclick="displayImageCard4(-1)">&lt;</button>
+                        <img id="imgCard4" src="https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015" class="img-fluid" class="slideshowImage"  alt="a great image">
+                       <button class="arrowButton rightArrow" onclick="displayImageCard4(1)">&gt;</button>
+                    </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4" onclick="closePopup(4)">
                     <div class="card-body">
                         <h3 class="card-title" style="font-weight: bold;">Card title</h3>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -165,6 +185,7 @@
         </div>
     </div>
 
+
       <div class="card mb-3" style="max-width: 550px;">
         <button onclick="openPopup(5)"><img src="https://m.media-amazon.com/images/I/71BFmrxsOVS._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Keycaps"></button>
         <div class="card-body">
@@ -174,22 +195,28 @@
         </div>
     </div>
 
-    <div class="overlay hidden" id="popupOverlay-5" onclick="closePopup(5)">
-      <div class="popup" id="popup">
-          <div class="row g-0">
-              <div class="col-lg-8">
-                  <img src="https://cannonkeys.com/cdn/shop/products/1_86223183-fa0a-4cda-b793-34615a240568.jpg?v=1699889055" class="img-fluid rounded-start" alt="a great image">
-              </div>
-              <div class="col-lg-4">
-                  <div class="card-body">
-                      <h3 class="card-title" style="font-weight: bold;">Card title</h3>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text" style="font-weight: bold;">34.99$</p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
+    <div class="overlay hidden" id="popupOverlay-5" >
+        <div class="popup rounded" id="popup-5">
+            <div class="row g-0">
+                <div class="col-lg-8">
+                    <div class="imgContainer">
+                       <button class="arrowButton leftArrow" onclick="displayImageCard5(-1)">&lt;</button>
+                        <img id="imgCard5" src="https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015" class="img-fluid" class="slideshowImage"  alt="a great image">
+                       <button class="arrowButton rightArrow" onclick="displayImageCard5(1)">&gt;</button>
+                    </div>
+                </div>
+                <div class="col-lg-4" onclick="closePopup(5)">
+                    <div class="card-body">
+                        <h3 class="card-title" style="font-weight: bold;">Card title</h3>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text" style="font-weight: bold;">34.99$</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
         <div class="card mb-3" style="max-width: 550px;">
           <button onclick="openPopup(6)"><img src="https://m.media-amazon.com/images/I/71BFmrxsOVS._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Keycaps"></button>
           <div class="card-body">
@@ -200,22 +227,28 @@
       </div>
 </div>
 
-<div class="overlay hidden" id="popupOverlay-6" onclick="closePopup(6)">
-  <div class="popup" id="popup">
-      <div class="row g-0">
-          <div class="col-lg-8">
-              <img src="https://cannonkeys.com/cdn/shop/files/4_78f25480-37df-45f7-a385-8af91fa74e96.jpg?v=1699889037" class="img-fluid rounded-start" alt="a great image">
-          </div>
-          <div class="col-lg-4">
-              <div class="card-body">
-                  <h3 class="card-title" style="font-weight: bold;">Card title</h3>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text" style="font-weight: bold;">34.99$</p>
-              </div>
-          </div>
-      </div>
-  </div>
+<div class="overlay hidden" id="popupOverlay-6" >
+    <div class="popup rounded" id="popup-6">
+        <div class="row g-0">
+            <div class="col-lg-8">
+                <div class="imgContainer">
+                   <button class="arrowButton leftArrow" onclick="displayImageCard6(-1)">&lt;</button>
+                    <img id="imgCard6"  src="https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015" class="img-fluid" class="slideshowImage"  alt="a great image">
+                   <button class="arrowButton rightArrow" onclick="displayImageCard6(1)">&gt;</button>
+                </div>
+            </div>
+            <div class="col-lg-4" onclick="closePopup(6)">
+                <div class="card-body">
+                    <h3 class="card-title" style="font-weight: bold;">Card title</h3>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text" style="font-weight: bold;">34.99$</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+
 <div class="container-fluid">
   <div class="row justify-content-evenly">
       <div class="card mb-3" style="max-width: 550px;">
@@ -227,22 +260,27 @@
         </div>
     </div>
 
-    <div class="overlay hidden" id="popupOverlay-7" onclick="closePopup(7)">
-      <div class="popup" id="popup">
-          <div class="row g-0">
-              <div class="col-lg-8">
-                  <img src="https://fancycustoms.com/cdn/shop/products/5_a7a72591-7721-4267-984a-5a34c4897c45.jpg?v=1681247908" class="img-fluid rounded-start" alt="a great image">
-              </div>
-              <div class="col-lg-4">
-                  <div class="card-body">
-                      <h3 class="card-title" style="font-weight: bold;">Card title</h3>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text" style="font-weight: bold;">34.99$</p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
+    <div class="overlay hidden" id="popupOverlay-7" >
+        <div class="popup rounded" id="popup-7">
+            <div class="row g-0">
+                <div class="col-lg-8">
+                    <div class="imgContainer">
+                       <button class="arrowButton leftArrow" onclick="displayImageCard7(-1)">&lt;</button>
+                        <img id="imgCard7" src="https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015" class="img-fluid" class="slideshowImage"  alt="a great image">
+                       <button class="arrowButton rightArrow" onclick="displayImageCard7(1)">&gt;</button>
+                    </div>
+                </div>
+                <div class="col-lg-4" onclick="closePopup(7)">
+                    <div class="card-body">
+                        <h3 class="card-title" style="font-weight: bold;">Card title</h3>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text" style="font-weight: bold;">34.99$</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <div class="card mb-3" style="max-width: 550px;">
       <button onclick="openPopup(8)"><img src="https://m.media-amazon.com/images/I/71BFmrxsOVS._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Keycaps"></button>
@@ -253,13 +291,17 @@
       </div>
   </div>
 
-  <div class="overlay hidden" id="popupOverlay-8" onclick="closePopup(8)">
-    <div class="popup" id="popup">
+  <div class="overlay hidden" id="popupOverlay-8" >
+    <div class="popup rounded" id="popup-8">
         <div class="row g-0">
             <div class="col-lg-8">
-                <img src="https://cannonkeys.com/cdn/shop/products/88.jpg?v=1699889055" class="img-fluid rounded-start" alt="a great image">
+                <div class="imgContainer">
+                   <button class="arrowButton leftArrow" onclick="displayImageCard8(-1)">&lt;</button>
+                    <img id="imgCard8" src="https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015" class="img-fluid" class="slideshowImage"  alt="a great image">
+                   <button class="arrowButton rightArrow" onclick="displayImageCard8(1)">&gt;</button>
+                </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4" onclick="closePopup(8)">
                 <div class="card-body">
                     <h3 class="card-title" style="font-weight: bold;">Card title</h3>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -269,6 +311,8 @@
         </div>
     </div>
 </div>
+
+
       <div class="card mb-3" style="max-width: 550px;">
         <button onclick="openPopup(9)"><img src="https://m.media-amazon.com/images/I/71BFmrxsOVS._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Keycaps"></button>
         <div class="card-body">
@@ -279,17 +323,22 @@
     </div>
 </div>
 
-<div class="overlay hidden" id="popupOverlay-9" onclick="closePopup(9)">
-<div class="popup" id="popup">
-    <div class="row g-0">
-        <div class="col-lg-8">
-            <img src="https://spaceholdings.net/cdn/shop/files/GMK-Wasabi-V2-Keycaps-Mechanical-Keyboard-14.jpg?v=1691516210" class="img-fluid rounded-start" alt="a great image">
-        </div>
-        <div class="col-lg-4">
-            <div class="card-body">
-                <h3 class="card-title" style="font-weight: bold;">Card title</h3>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text" style="font-weight: bold;">34.99$</p>
+<div class="overlay hidden" id="popupOverlay-9" >
+    <div class="popup rounded" id="popup-9">
+        <div class="row g-0">
+            <div class="col-lg-8">
+                <div class="imgContainer">
+                   <button class="arrowButton leftArrow" onclick="displayImageCard9(-1)">&lt;</button>
+                    <img id="imgCard9" src="https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015" class="img-fluid" class="slideshowImage"  alt="a great image">
+                   <button class="arrowButton rightArrow" onclick="displayImageCard9(1)">&gt;</button>
+                </div>
+            </div>
+            <div class="col-lg-4" onclick="closePopup(9)">
+                <div class="card-body">
+                    <div><h3 class="card-title" style="font-weight: bold;">Card title</h3></div>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text" style="font-weight: bold;">34.99$</p>
+                </div>
             </div>
         </div>
     </div>
