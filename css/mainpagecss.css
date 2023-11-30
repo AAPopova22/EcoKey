@@ -29,3 +29,34 @@
     text-decoration: none;
     color: #c0cdc0;
 }
+.imgContainer {
+    position: relative; 
+    text-align: center;
+}
+
+.arrowButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.leftArrow {
+    left: 8px;
+    font-weight: bold;
+    color: gray;
+    height: 5vh;
+}
+
+.arrowbg{
+    background-color: whitesmoke;
+}
+.rightArrow {
+    right: 8px;
+    font-weight: bold;
+    color: gray;
+}
