@@ -30,20 +30,22 @@
     color: #c0cdc0;
 }
 .imgContainer {
-    position: relative; 
-    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 
 .arrowButton {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
     font-size: 20px;
     cursor: pointer;
     border: none;
     background: none;
     outline: none;
+    transform: translate(0, -50%);
 }
+
 
 .leftArrow {
     left: 8px;
@@ -60,3 +62,25 @@
     font-weight: bold;
     color: gray;
 }
+  .custom-text {
+    font-size: 6vh; 
+  }
+
+  @media (max-width: 576px) {
+
+    .custom-text {
+      font-size: 4.5vh; 
+    }
+  }
+  .custom-text {
+    font-size: 4.5vh; 
+    padding-top: 20vh;
+  }
+  .rounded.border {
+    overflow: hidden; 
+  }
+
+  .custom-text {
+    padding-top: 20vh; 
+    margin-bottom: 0; 
+  }

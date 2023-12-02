@@ -11,3 +11,6 @@
 .card{
     padding: 0;
 }
+.img-fluid{
+    height: 40vh;
+}

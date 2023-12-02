@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    overflow-x: hidden; 
+}
+.g-0{
+    padding: 0;
+}
+.h1step{
+margin: 0;
+margin-right: 3vw;
+width: fit-content;
+padding: 0;
+font-weight: bold;
+}
+.dropdown1{
+    height: 10vh;
+    padding: 0;
+}
+#dropbtn{
+    align-self: end;
+    height: 4vh;
+    margin-top: 1vh;
+    background-color: #749074;
+
+}
+.img60,
+.percent60{
+height: 40vh;
+width: 35vw;
+display: none;
+}
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}

@@ -1,3 +1,6 @@
+.navbar{
+    margin: auto;
+}
 .dropdown-item{
     background-color: gainsboro; 
     font-weight: bold;

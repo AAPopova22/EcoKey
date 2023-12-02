@@ -28,3 +28,79 @@ footer{
 .listfoot{
     text-decoration: none; color: #c0cdc0;
 }
+.animation{
+    margin-top: 8vh; width: 100%; height: 25vh; border: 3px solid black;
+}
+
+.rounded{
+    text-align: center; margin-left: auto; margin-right: auto; width: 80%; height: 60vh; background-color:#749074; color: #bcd4bc; margin-top: 10vh; margin-bottom: 10vh;
+ padding: 0;
+}
+.Ecotext{
+    text-align: right;
+     font-size: 3vh; 
+     padding-right: 30vh;
+}
+.imgContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.arrowButton {
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    outline: none;
+    transform: translate(0, -50%);
+}
+
+.leftArrow {
+    left: 0;
+}
+
+.rightArrow {
+    right: 0;
+}
+
+
+.leftArrow {
+    left: 8px;
+    font-weight: bold;
+    color: gray;
+    height: 5vh;
+}
+
+.arrowbg{
+    background-color: whitesmoke;
+}
+.rightArrow {
+    right: 8px;
+    font-weight: bold;
+    color: gray;
+}
+.custom-text {
+    font-size: 6vh; 
+  }
+
+  @media (max-width: 576px) {
+
+    .custom-text {
+      font-size: 4.5vh; 
+    }
+  }
+  .custom-text {
+    font-size: 4.5vh; 
+    padding-top: 20vh;
+  }
+  .rounded.border {
+    overflow: hidden; 
+  }
+
+  .custom-text {
+    padding-top: 20vh; 
+    margin-bottom: 0; 
+  }

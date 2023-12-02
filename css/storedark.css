@@ -7,24 +7,24 @@ body {
     margin: auto;
 }
 
-.dropdown-item {
-    background-color: gainsboro;
+.dropdown-item{
+    background-color: gainsboro; 
     font-weight: bold;
 }
-
-.card {
+.card{
     border: solid 3px black;
-    border-radius: 1vh;
-    padding: 0;
-    margin-top: 1%;
-    background-color: gainsboro;
+     border-radius: 1vh; 
+     padding: 0; 
+     margin-top: 1%; 
+     margin-left: 1vw;
+     font-weight: bold;
+     background-color: #c5c5c5;
 }
 .card-title{
-    font-weight: bold;
-    font-size: 3vh;
-}
-.card-text{
     font-size: 2.5vh;
+    font-weight: bold;
+}
+.cardtext{
     font-weight: bold;
 }
 .g-0 {
