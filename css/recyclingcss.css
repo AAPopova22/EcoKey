@@ -8,3 +8,30 @@
 .listtext{
     text-decoration: none; color: #c0cdc0;
 }
+
+body{
+    font-weight: bold;
+    font-size: 20px;
+}
+h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer-desc {
+    font-weight: bold;
+    font-size: 20px;
+}
+hr {
+    border: 2px solid #749074; 
+    color: #749074;
+    width: 100%;
+    opacity: 1;
+}
