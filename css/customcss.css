@@ -1,38 +1,39 @@
-body{
-    padding: 0;
-    overflow-x: hidden; 
+body {
+  margin: 0;
 }
-.g-0{
-    padding: 0;
+.navbar{
+  margin: auto;
 }
-.h1step{
-margin: 0;
-margin-right: 3vw;
-width: fit-content;
-padding: 0;
-font-weight: bold;
+.dropdown-item{
+  font-weight: bold;
 }
-.dropdown1{
-    height: 10vh;
-    padding: 0;
+.footertext{
+  color: #c0cdc0;
 }
-#dropbtn{
-    align-self: end;
-    height: 4vh;
-    margin-top: 1vh;
-    background-color: #749074;
+.listtext{
+  text-decoration: none;
+  color: #c0cdc0;
+}
+#keyboard-container {
 
+  position: relative;
+  width: 1000px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20vh;
 }
-.img60,
-.percent60{
-height: 40vh;
-width: 35vw;
-display: none;
+.keyboard{
+  height: 300px;
+  width:40vw;
 }
-.hidden {
-    display: none;
+.key {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
 }
-
-.visible {
-    display: block;
+#key1{
+  background-image: url(/images/Designer.png);
+  background-size: cover;
 }
