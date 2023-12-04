@@ -1,3 +1,9 @@
+.logo-image {
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    margin-top: -6px;
+}
 .footertext{
     color: #c0cdc0;
 }
@@ -10,6 +16,14 @@
 }
 .card{
     padding: 0;
+    border: solid black;
+    border-radius: 3px;
+}
+.card-title{
+    font-weight: bold;
+}
+.card-text{
+    font-weight: bold;
 }
 .img-fluid{
     height: 40vh;
