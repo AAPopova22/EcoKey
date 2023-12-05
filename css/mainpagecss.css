@@ -10,6 +10,18 @@
     padding: 0; 
     margin-top: 1%;
 }
+.g-0{
+  padding: 0;
+}
+.card-title{
+  font-weight: bold;
+}
+.card-text{
+  font-weight: bold;
+}
+.bestsell{
+  margin-top: 0.5vh;
+}
 .animation{
     margin-top: 8vh; width: 100%; height: 25vh; border: 3px solid black;
 }
@@ -21,6 +33,8 @@
     text-align: right;
      font-size: 3vh; 
      padding-right: 30vh;
+     font-style: italic;
+     font-weight: bold;
 }
 .footertext{
     color: #c0cdc0;
@@ -75,6 +89,8 @@
   .custom-text {
     font-size: 4.5vh; 
     padding-top: 20vh;
+    font-style: italic;
+    font-weight: bold;
   }
   .rounded.border {
     overflow: hidden; 

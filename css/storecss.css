@@ -6,6 +6,12 @@
     background-color: gainsboro; 
     font-weight: bold;
 }
+.subtitle-h1{
+    font-weight: bold;
+    text-align: center; 
+    padding: 3vh;
+    margin: 0;
+}
 .card{
     border: solid 3px black;
      border-radius: 1vh; 

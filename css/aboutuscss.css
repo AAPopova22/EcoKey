@@ -11,6 +11,12 @@
     text-decoration: none;
     color: #c0cdc0;
 }
+.subtitle-h1{
+    font-weight: bold;
+    text-align: center;
+    padding: 3vh;
+    margin: 0;
+}
 .g-0{
     padding: 0;
 }

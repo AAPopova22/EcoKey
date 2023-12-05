@@ -11,6 +11,12 @@ body {
     background-color: gainsboro; 
     font-weight: bold;
 }
+.subtitle-h1{
+    font-weight: bold;
+    text-align: center; 
+    padding: 3vh;
+    margin: 0;
+}
 .card{
     border: solid 3px black;
      border-radius: 1vh; 
@@ -24,7 +30,7 @@ body {
     font-size: 2.5vh;
     font-weight: bold;
 }
-.cardtext{
+.card-text{
     font-weight: bold;
 }
 .g-0 {

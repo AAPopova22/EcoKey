@@ -2,14 +2,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <!--Libraries and other things in order to make Bs5 work-->
+    <meta charset="UTF-8">
+    <!-- ibraries and other things in order to make Bs5 work -->
     <meta name="viewport"  content="width=device-width, initial-scale=1">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"crossorigin="anonymous">
+     <!-- External Stylesheets CSS-->
     <link rel="stylesheet" href="/allcss.css">
     <link rel="stylesheet" href="/css/storedark.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+     <!-- External JavaScript Files JS-->
     <script src="/js/aljs.js"></script>
     <script src="/js/storejs.js"></script>
     <!-- Website icon and title on the webbrowser bar-->
@@ -27,6 +29,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+         <!-- The Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #333333;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -34,6 +37,7 @@
                     <img src="/images/Logo.png.png" class="img-fluid">
                 </div>
             </a>
+             <!-- Button with Bootstrap class for toggling navigation collapse -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,6 +48,7 @@
                     <a class="nav-link  active" href="/html code/store.html">Store</a>
                     <a class="nav-link" href="/html code/aboutus.html">About us</a>
                     <a class="nav-link" class="recycling" href="recycling.html">Recycling</a>
+                    <!-- Dropdown Menu for Themes -->
                     <div class="dropdown">
                         <button class="btn nav-link" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Themes</button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -56,10 +61,14 @@
             </div>
         </div>
     </nav>
-    <h1 style="font-weight: bold; text-align: center; padding: 3vh; margin: 0;">Our products</h1>
+
+    <h1 class="subtitle-h1">Our products</h1>
+    <!-- Row for the First Section (including 3 cards) -->
+    <!-- Responsive Card1 -->
     <div class="container-fluid">
         <div class="row justify-content-evenly">
             <div class="card col-md-12" style="max-width: 30vw;">
+                 <!-- Popup Trigger Button with Image -->
                 <button onclick="openPopup(1)"><img src="https://m.media-amazon.com/images/I/71BFmrxsOVS._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Keycaps"></button>
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -67,29 +76,32 @@
                     <p class="card-text">69.4$</p>
                 </div>
             </div>
-
+    <!-- Popup Container -->
             <div class="overlay hidden" id="popupOverlay-1" >
                 <div class="popup rounded" id="popup-1">
                     <div class="row g-0">
                         <div class="col-lg-8">
+                            <!-- Navigation Arrows for Image Slideshow -->
                             <div class="imgContainer">
                                <button class="arrowButton leftArrow" onclick="displayImageCard1(-1)">&lt;</button>
                                 <img id="imgCard1" src="https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015" class="img-fluid" class="slideshowImage"  alt="a great image">
                                <button class="arrowButton rightArrow" onclick="displayImageCard1(1)">&gt;</button>
                             </div>
                         </div>
+                            <!-- Additional Card Section (Close Popup on Click) -->
                         <div class="col-lg-4" onclick="closePopup(1)">
                             <div class="card-body">
-                                <h3 class="card-title" style="font-weight: bold;">Card title</h3>
+                                <h3 class="card-title">Card title</h3>
                                 <p class="card-text">This. is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text" style="font-weight: bold;">34.99$</p>
+                                <p class="card-text">34.99$</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
+    <!-- Responsive Card2 -->
           <div class="card col-md-12" style="max-width: 30vw;">
+            <!-- Popup Trigger Button with Image -->
             <button onclick="openPopup(2)"><img src="https://m.media-amazon.com/images/I/71BFmrxsOVS._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Keycaps"></button>
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -97,28 +109,32 @@
                 <p class="card-text">69.4$</p>
             </div>
         </div>
-
+    <!-- Popup Container -->
         <div class="overlay hidden" id="popupOverlay-2" >
             <div class="popup rounded" id="popup-2">
                 <div class="row g-0">
                     <div class="col-lg-8">
+                         <!-- Navigation Arrows for Image Slideshow -->
                         <div class="imgContainer">
                            <button class="arrowButton leftArrow" onclick="displayImageCard2(-1)">&lt;</button>
                             <img id="imgCard2" src="https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015" class="img-fluid" class="slideshowImage"  alt="a great image">
                            <button class="arrowButton rightArrow" onclick="displayImageCard2(1)">&gt;</button>
                         </div>
                     </div>
+                        <!-- Additional Card Section (Close Popup on Click) -->
                     <div class="col-lg-4" onclick="closePopup(2)">
                         <div class="card-body">
-                            <h3 class="card-title" style="font-weight: bold;">Card title</h3>
+                            <h3 class="card-title">Card title</h3>
                             <p class="card-text">This. is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text" style="font-weight: bold;">34.99$</p>
+                            <p class="card-text">34.99$</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+         <!-- Responsive Card3 -->
             <div class="card col-md-12" style="max-width: 30vw;">
+                <!-- Popup Trigger Button with Image -->
               <button onclick="openPopup(3)"><img src="https://m.media-amazon.com/images/I/71BFmrxsOVS._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Keycaps"></button>
               <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -127,32 +143,36 @@
               </div>
           </div>
     </div>
-  
+    <!-- Popup Container -->
     <div class="overlay hidden" id="popupOverlay-3" >
         <div class="popup rounded" id="popup-3">
             <div class="row g-0">
                 <div class="col-lg-8">
+                     <!-- Navigation Arrows for Image Slideshow -->
                     <div class="imgContainer">
                        <button class="arrowButton leftArrow" onclick="displayImageCard3(-1)">&lt;</button>
                         <img id="imgCard3" src="https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015" class="img-fluid" class="slideshowImage"  alt="a great image">
                        <button class="arrowButton rightArrow" onclick="displayImageCard3(1)">&gt;</button>
                     </div>
                 </div>
+                 <!-- Additional Card Section (Close Popup on Click) -->
                 <div class="col-lg-4" onclick="closePopup(3)">
                     <div class="card-body">
-                        <h3 class="card-title" style="font-weight: bold;">Card title</h3>
+                        <h3 class="card-title">Card title</h3>
                         <p class="card-text">This. is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text" style="font-weight: bold;">34.99$</p>
+                        <p class="card-text">34.99$</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-
+<!-- Row for the Second Section (including 3 cards) -->
+    <!-- Responsive Card1 -->
   <div class="container-fluid">
     <div class="row justify-content-evenly">
         <div class="card col-md-12" style="max-width: 30vw;">
+             <!-- Popup Trigger Button with Image -->
           <button onclick="openPopup(4)"><img src="https://m.media-amazon.com/images/I/71BFmrxsOVS._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Keycaps"></button>
           <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -160,30 +180,33 @@
               <p class="card-text">69.4$</p>
           </div>
       </div>
-
+  <!-- Popup Container -->
       <div class="overlay hidden" id="popupOverlay-4" >
         <div class="popup rounded" id="popup-4">
             <div class="row g-0">
                 <div class="col-lg-8">
+                      <!-- Navigation Arrows for Image Slideshow -->
                     <div class="imgContainer">
                        <button class="arrowButton leftArrow" onclick="displayImageCard4(-1)">&lt;</button>
                         <img id="imgCard4" src="https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015" class="img-fluid" class="slideshowImage"  alt="a great image">
                        <button class="arrowButton rightArrow" onclick="displayImageCard4(1)">&gt;</button>
                     </div>
                 </div>
+                 <!-- Additional Card Section (Close Popup on Click) -->
                 <div class="col-lg-4" onclick="closePopup(4)">
                     <div class="card-body">
-                        <h3 class="card-title" style="font-weight: bold;">Card title</h3>
+                        <h3 class="card-title">Card title</h3>
                         <p class="card-text">This. is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text" style="font-weight: bold;">34.99$</p>
+                        <p class="card-text">34.99$</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-
+<!-- Responsive Card2 -->
       <div class="card col-md-12" style="max-width: 30vw;">
+        <!-- Popup Trigger Button with Image -->
         <button onclick="openPopup(5)"><img src="https://m.media-amazon.com/images/I/71BFmrxsOVS._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Keycaps"></button>
         <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -191,30 +214,33 @@
             <p class="card-text">69.4$</p>
         </div>
     </div>
-
+ <!-- Popup Container -->
     <div class="overlay hidden" id="popupOverlay-5" >
         <div class="popup rounded" id="popup-5">
             <div class="row g-0">
                 <div class="col-lg-8">
+                         <!-- Navigation Arrows for Image Slideshow -->
                     <div class="imgContainer">
                        <button class="arrowButton leftArrow" onclick="displayImageCard5(-1)">&lt;</button>
                         <img id="imgCard5" src="https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015" class="img-fluid" class="slideshowImage"  alt="a great image">
                        <button class="arrowButton rightArrow" onclick="displayImageCard5(1)">&gt;</button>
                     </div>
                 </div>
+                <!-- Additional Card Section (Close Popup on Click) -->
                 <div class="col-lg-4" onclick="closePopup(5)">
                     <div class="card-body">
-                        <h3 class="card-title" style="font-weight: bold;">Card title</h3>
+                        <h3 class="card-title">Card title</h3>
                         <p class="card-text">This. is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text" style="font-weight: bold;">34.99$</p>
+                        <p class="card-text">34.99$</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-
+<!-- Responsive Card3 -->
         <div class="card col-md-12" style="max-width: 30vw;">
+               <!-- Popup Trigger Button with Image -->
           <button onclick="openPopup(6)"><img src="https://m.media-amazon.com/images/I/71BFmrxsOVS._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Keycaps"></button>
           <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -223,32 +249,36 @@
           </div>
       </div>
 </div>
-
-<div class="overlay hidden" id="popupOverlay-6" >
+ <!-- Popup Container -->
+<div class="overlay hidden" id="popupOverlay-6">
     <div class="popup rounded" id="popup-6">
         <div class="row g-0">
             <div class="col-lg-8">
+                <!-- Navigation Arrows for Image Slideshow -->
                 <div class="imgContainer">
                    <button class="arrowButton leftArrow" onclick="displayImageCard6(-1)">&lt;</button>
                     <img id="imgCard6"  src="https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015" class="img-fluid" class="slideshowImage"  alt="a great image">
                    <button class="arrowButton rightArrow" onclick="displayImageCard6(1)">&gt;</button>
                 </div>
             </div>
+            <!-- Additional Card Section (Close Popup on Click) -->
             <div class="col-lg-4" onclick="closePopup(6)">
                 <div class="card-body">
-                    <h3 class="card-title" style="font-weight: bold;">Card title</h3>
+                    <h3 class="card-title">Card title</h3>
                     <p class="card-text">This. is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text" style="font-weight: bold;">34.99$</p>
+                    <p class="card-text">34.99$</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-
+<!-- Row for the Third Section (including 3 cards) -->
+    <!-- Responsive Card1 -->
 <div class="container-fluid">
     <div class="row justify-content-evenly">
         <div class="card col-md-12" style="max-width: 30vw;">
+             <!-- Popup Trigger Button with Image -->
           <button onclick="openPopup(7)"><img src="https://m.media-amazon.com/images/I/71BFmrxsOVS._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Keycaps"></button>
           <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -256,30 +286,33 @@
               <p class="card-text">69.4$</p>
           </div>
       </div>
-
+ <!-- Popup Container -->
       <div class="overlay hidden" id="popupOverlay-7" >
         <div class="popup rounded" id="popup-7">
             <div class="row g-0">
                 <div class="col-lg-8">
+                      <!-- Navigation Arrows for Image Slideshow -->
                     <div class="imgContainer">
                        <button class="arrowButton leftArrow" onclick="displayImageCard4(-1)">&lt;</button>
                         <img id="imgCard7" src="https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015" class="img-fluid" class="slideshowImage"  alt="a great image">
                        <button class="arrowButton rightArrow" onclick="displayImageCard4(1)">&gt;</button>
                     </div>
                 </div>
+                 <!-- Additional Card Section (Close Popup on Click) -->
                 <div class="col-lg-4" onclick="closePopup(7)">
                     <div class="card-body">
-                        <h3 class="card-title" style="font-weight: bold;">Card title</h3>
+                        <h3 class="card-title">Card title</h3>
                         <p class="card-text">This. is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text" style="font-weight: bold;">34.99$</p>
+                        <p class="card-text">34.99$</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-
+<!-- Responsive Card2 -->
       <div class="card col-md-12" style="max-width: 30vw;">
+         <!-- Popup Trigger Button with Image -->
         <button onclick="openPopup(8)"><img src="https://m.media-amazon.com/images/I/71BFmrxsOVS._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Keycaps"></button>
         <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -287,30 +320,32 @@
             <p class="card-text">69.4$</p>
         </div>
     </div>
-
+<!-- Popup Container -->
     <div class="overlay hidden" id="popupOverlay-8" >
         <div class="popup rounded" id="popup-8">
             <div class="row g-0">
                 <div class="col-lg-8">
+                    <!-- Navigation Arrows for Image Slideshow -->
                     <div class="imgContainer">
                        <button class="arrowButton leftArrow" onclick="displayImageCard5(-1)">&lt;</button>
                         <img id="imgCard8" src="https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015" class="img-fluid" class="slideshowImage"  alt="a great image">
                        <button class="arrowButton rightArrow" onclick="displayImageCard5(1)">&gt;</button>
                     </div>
                 </div>
+                  <!-- Additional Card Section (Close Popup on Click) -->
                 <div class="col-lg-4" onclick="closePopup(8)">
                     <div class="card-body">
-                        <h3 class="card-title" style="font-weight: bold;">Card title</h3>
+                        <h3 class="card-title">Card title</h3>
                         <p class="card-text">This. is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text" style="font-weight: bold;">34.99$</p>
+                        <p class="card-text">34.99$</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
+<!-- Responsive Card3 -->
         <div class="card col-md-12" style="max-width: 30vw;">
+             <!-- Popup Trigger Button with Image -->
           <button onclick="openPopup(9)"><img src="https://m.media-amazon.com/images/I/71BFmrxsOVS._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Keycaps"></button>
           <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -319,28 +354,31 @@
           </div>
       </div>
 </div>
-
+<!-- Popup Container -->
 <div class="overlay hidden" id="popupOverlay-9" >
     <div class="popup rounded" id="popup-9">
         <div class="row g-0">
             <div class="col-lg-8">
+                <!-- Navigation Arrows for Image Slideshow -->
                 <div class="imgContainer">
                    <button class="arrowButton leftArrow" onclick="displayImageCard6(-1)">&lt;</button>
                     <img id="imgCard9"  src="https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015" class="img-fluid" class="slideshowImage"  alt="a great image">
                    <button class="arrowButton rightArrow" onclick="displayImageCard6(1)">&gt;</button>
                 </div>
             </div>
+             <!-- Additional Card Section (Close Popup on Click) -->
             <div class="col-lg-4" onclick="closePopup(9)">
                 <div class="card-body">
-                    <h3 class="card-title" style="font-weight: bold;">Card title</h3>
+                    <h3 class="card-title">Card title</h3>
                     <p class="card-text">This. is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text" style="font-weight: bold;">34.99$</p>
+                    <p class="card-text">34.99$</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
+<!-- Footer Section -->
 <footer>
     <div class="container">
       <div class="row">
