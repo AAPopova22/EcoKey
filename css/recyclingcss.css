@@ -35,3 +35,7 @@ hr {
     width: 100%;
     opacity: 1;
 }
+.footertext{
+    text-decoration: none;
+    color:#c0cdc0;
+}

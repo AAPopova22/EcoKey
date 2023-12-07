@@ -34,8 +34,6 @@
     text-decoration: none;
     color: #c0cdc0;
 }
-
-
 .overlay {
     position: fixed;
     top: 0;
@@ -46,10 +44,9 @@
     z-index: 999;
 }
 button{
-    border: none;
+    padding: 0;
+    border: 0;
 }
-
-
 .popup {
     position: absolute;
     top: 50%;

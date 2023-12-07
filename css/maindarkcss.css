@@ -26,13 +26,13 @@ body{
     padding: 0;
 }
 .footertext{
-    color: #c0cdc0;
+    color: #AAAAAA;
 }
 footer{
     background-color: #333333;
 }
 .listfoot{
-    text-decoration: none; color: #c0cdc0;
+    text-decoration: none; color: #AAAAAA;
 }
 .animation{
     margin-top: 8vh; width: 100%; height: 25vh; border: 3px solid black;
