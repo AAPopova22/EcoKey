@@ -64,7 +64,8 @@ footer {
     z-index: 999;
 }
 button{
-    border: none;
+    padding: 0;
+    border: 0;
 }
 #popup {
     padding: 0;
