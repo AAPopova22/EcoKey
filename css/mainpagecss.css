@@ -23,25 +23,34 @@
   margin-top: 0.5vh;
 }
 .animation{
-    margin-top: 8vh; width: 100%; height: 25vh; border: 3px solid black;
+  margin-top: 8vh;
+  width: 100%;
+  height: 25vh;
+  border: 3px solid black;
 }
-
 .rounded{
-    text-align: center; margin-left: auto; margin-right: auto; width: 80%; height: 60vh; background-color:#749074; color: #bcd4bc; margin-top: 10vh; margin-bottom: 10vh;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 80%; height: 60vh;
+  background-color:#749074;
+  color: #bcd4bc;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 .Ecotext{
-    text-align: right;
-     font-size: 3vh; 
-     padding-right: 30vh;
-     font-style: italic;
-     font-weight: bold;
+  text-align: right;
+  font-size: 3vh; 
+  padding-right: 30vh;
+  font-style: italic;
+  font-weight: bold;
 }
 .footertext{
-    color: #c0cdc0;
+  color: #c0cdc0;
 }
 .listtext{
-    text-decoration: none;
-    color: #c0cdc0;
+  text-decoration: none;
+  color: #c0cdc0;
 }
 .imgContainer {
     display: flex;
@@ -50,31 +59,30 @@
 }
 
 .arrowButton {
-    position: absolute;
-    top: 50%;
-    font-size: 20px;
-    cursor: pointer;
-    border: none;
-    background: none;
-    outline: none;
-    transform: translate(0, -50%);
+  position: absolute;
+  top: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+  transform: translate(0, -50%);
 }
 
-
 .leftArrow {
-    left: 8px;
-    font-weight: bold;
-    color: gray;
-    height: 5vh;
+  left: 8px;
+  font-weight: bold;
+  color: gray;
+  height: 5vh;
 }
 
 .arrowbg{
     background-color: whitesmoke;
 }
 .rightArrow {
-    right: 8px;
-    font-weight: bold;
-    color: gray;
+  right: 8px;
+  font-weight: bold;
+  color: gray;
 }
   .custom-text {
     font-size: 6vh; 

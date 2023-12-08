@@ -27,6 +27,7 @@ body{
 }
 .footertext{
     color: #AAAAAA;
+    font-weight: bold;
 }
 footer{
     background-color: #333333;
