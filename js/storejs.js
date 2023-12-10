@@ -5,8 +5,8 @@ function displayImage(images, currentIndex, direction, imgElementId) {
 }
 
 var imagesCard1 = [
-    "https://cannonkeys.com/cdn/shop/products/88.jpg?v=1699889055",
-    "https://geekboards.de/web/image/product.image/3895/image_1920?unique=d49ab93"
+    "/images/imgstore2.jpg",
+    "/images/imgstore3.jpg"
 ];
 var currentIndexCard1 = 0;
 
@@ -25,8 +25,8 @@ function closePopupCard1() {
 }
 
 var imagesCard2 = [
-    "https://en.zfrontier.com/cdn/shop/products/WasabiPetrichor2_d584ad4e-47c8-4250-83f9-f88b29eab730.jpg?v=1674027235&width=1920",
-    "https://spaceholdings.net/cdn/shop/files/GMK-Wasabi-V2-Keycaps-Mechanical-Keyboard-14.jpg?v=1691516210"
+    "/images/imgstore5.jpg",
+    "/images/imgstore6.jpg"
 ];
 var currentIndexCard2 = 0;
 
@@ -45,8 +45,8 @@ function closePopupCard2() {
 }
 
 var imagesCard3 = [
-    "https://en.zfrontier.com/cdn/shop/products/WasabiPetrichor3_5f1ea283-8489-4cc0-a3be-fd9af4f8b04e.jpg?v=1674027235&width=2048",
-    "https://i0.wp.com/cdn.mos.cms.futurecdn.net/jYV6zQZqvLyVLmMBnmVBMZ.jpg?ssl=1"
+    "/images/imgstore8.jpg",
+    "/images/imgstore9.jpg"
 ];
 var currentIndexCard3 = 0;
 
@@ -65,8 +65,8 @@ function closePopupCard3() {
 }
 
 var imagesCard4 = [
-    "https://cdn.mos.cms.futurecdn.net/roX3vMtGKVojAPERHL6UAY.jpeg",
-    "https://cdn.mos.cms.futurecdn.net/AWjsWukNZDteWaCvCR6SDQ.jpg"
+    "/images/cropped-eco3.png",
+    "/images/cropped-eco4.png"
 ];
 var currentIndexCard4 = 0;
 
@@ -85,8 +85,8 @@ function closePopupCard4() {
 }
 
 var imagesCard5 = [
-    "https://meletrix.com/cdn/shop/files/4_3faf8410-ce37-428a-9577-95db5c14d1e2.jpg?v=1689946983&width=2048",
-    "https://cannonkeys.com/cdn/shop/products/222.jpg?v=1699889055"
+    "/images/imgstore11.jpg",
+    "/images/imgstore12.jpg"
 ];
 var currentIndexCard5 = 0;
 
@@ -105,8 +105,8 @@ function closePopupCard5() {
 }
 
 var imagesCard6 = [
-    "https://dangkeebs.com/cdn/shop/files/DSC03395.jpg?v=1690087004&width=1946",
-    "https://dangkeebs.com/cdn/shop/files/DSC03412_9ba18c22-1b1b-4c2a-a98b-7fd9f98aed20.jpg?v=1692570778&width=1946"
+    "/images/cropped-cropped-christmas2.png",
+    "/images/cropped-cropped-S168f07eee12d4f008b331c62cfd084b6j.png"
 ];
 var currentIndexCard6 = 0;
 
@@ -125,8 +125,8 @@ function closePopupCard6() {
 }
 
 var imagesCard7 = [
-    "https://www.tech-critter.com/wp-content/uploads/2021/10/1STPLAYER-LANG-MK980-09.png",
-    "https://fancycustoms.com/cdn/shop/products/4_f94de244-0f5b-44e9-88de-0e17b20aa356.jpg?v=1681247001"
+    "/images/cropped-cropped-minina2.png",
+    "/images/cropped-cropped-minina1.png"
 ];
 var currentIndexCard7 = 0;
 
@@ -145,8 +145,8 @@ function closePopupCard7() {
 }
 
 var imagesCard8 = [
-    "https://cannonkeys.com/cdn/shop/products/2_1.jpg?v=1699889055",
-    "https://en.zfrontier.com/cdn/shop/products/GMKHAKU-Fuji65_4.webp?v=1672830962&width=1920"
+    "/images/cropped-cropped-oceanic1.png",
+    "/images/cropped-cropped-oceanic2.png"
 ];
 var currentIndexCard8 = 0;
 
@@ -165,8 +165,8 @@ function closePopupCard8() {
 }
 
 var imagesCard9 = [
-    "https://cdn.mos.cms.futurecdn.net/RjmD8ewfJgAp6WuBZtdCtJ.jpg",
-    "https://media.sketchfab.com/models/6de394853eca459689f2ef043367a22a/thumbnails/9ad0a12bc4be440a8df075f90df677fa/f775a5a8707f4e8f9c62809a00c20194.jpeg"
+    "/images/imgstore14.jpg",
+    "/images/imgstore15.jpg"
 ];
 var currentIndexCard9 = 0;
 

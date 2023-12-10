@@ -31,6 +31,8 @@
 .imgContainer {
     position: relative;
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 .overlay {
     position: fixed;
@@ -40,6 +42,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 999;
+    padding: 0;
 }
 .popupOverlay {
     display: none;
@@ -51,6 +54,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     justify-content: center; /*Center content horizontally*/
     align-items: center; /*Center content vertically*/
+    padding: 0;
 }
 button {
     padding: 0;
@@ -65,6 +69,7 @@ button {
     background-color: white;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 0;
 }
 .hidden {
     display: none;

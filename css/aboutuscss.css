@@ -21,9 +21,11 @@
 }
 .card-title{
     font-weight: bold;
+    font-size: 30px;
 }
 .card-text{
     font-weight: bold;
+    font-size: 20px;
 }
 /*Footer Section*/
 .footertext{
