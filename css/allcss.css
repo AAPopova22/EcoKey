@@ -7,7 +7,6 @@ body{
     overflow: hidden;
     margin-top: -6px;
 }
-
 .navbar-nav{
     padding: 0.5rem 1rem; 
 }
@@ -23,7 +22,6 @@ body{
     padding: 0.8rem; 
     background-color: black;
 }
-
 .row{
     
     border-radius: 3vh;
@@ -33,16 +31,16 @@ body{
     text-align: center;
     font-weight: bolder;
 }
-footer{
-    background-color: #749074;
-    color: #c0cdc0;
-    text-decoration: none;
-    font-weight: bold;
-}
 .btn{
     margin-top: 0vh;
 }
 .dropdown-menu{
     padding-bottom: 0vh;
     padding-top: 0vh;
+}
+footer{
+    background-color: #749074;
+    color: #c0cdc0;
+    text-decoration: none;
+    font-weight: bold;
 }

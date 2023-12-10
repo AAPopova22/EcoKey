@@ -1,110 +1,109 @@
-.navbar{
-    margin: auto;
+.navbar {
+  margin: auto;
 }
-.dropdown-item{
-    font-weight: bold;
+.dropdown-item {
+  font-weight: bold;
 }
-.card{
-    border: solid 3px black;
-    border-radius: 1vh;
-    padding: 0; 
-    margin-top: 1%;
-}
-.g-0{
+.g-0 {
   padding: 0;
 }
-.card-title{
+/*Card elements*/
+.card {
+  border: solid 3px black;
+  border-radius: 1vh;
+  padding: 0; 
+  margin-top: 1%;
+}
+.card-title {
   font-weight: bold;
 }
-.card-text{
+.card-text {
   font-weight: bold;
 }
-.bestsell{
+.imgContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+/*The heading of the page*/
+.bestsell {
   margin-top: 0.5vh;
 }
-.animation{
+.animation {
   margin-top: 8vh;
   width: 100%;
   height: 25vh;
   border: 3px solid black;
 }
-.rounded{
+/*The Main Quotec container style*/
+.rounded {
   text-align: center;
   margin-left: auto;
   margin-right: auto; 
-  width: 80%; height: 60vh;
+  width: 80%; 
+  height: 60vh;
   background-color:#749074;
   color: #bcd4bc;
   margin-top: 10vh;
   margin-bottom: 10vh;
 }
-.Ecotext{
+.rounded.border {
+  overflow: hidden; 
+}
+.Ecotext {
   text-align: right;
   font-size: 3vh; 
   padding-right: 30vh;
   font-style: italic;
   font-weight: bold;
 }
-.footertext{
-  color: #c0cdc0;
-}
-.listtext{
-  text-decoration: none;
-  color: #c0cdc0;
-}
-.imgContainer {
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-
 .arrowButton {
   position: absolute;
-  top: 50%;
+  top: 50%; /*Positioned at 50% from the top of the containing element*/
   font-size: 20px;
-  cursor: pointer;
+  cursor: pointer; /*Display a pointer cursor on hover*/
   border: none;
   background: none;
   outline: none;
-  transform: translate(0, -50%);
+  transform: translate(0, -50%); /*Move the element up by 50% of its own height*/
 }
-
+.arrowbg {
+  background-color: whitesmoke;
+}
+/*The arrows style*/
 .leftArrow {
   left: 8px;
   font-weight: bold;
   color: gray;
   height: 5vh;
 }
-
-.arrowbg{
-    background-color: whitesmoke;
-}
 .rightArrow {
   right: 8px;
   font-weight: bold;
   color: gray;
 }
-  .custom-text {
-    font-size: 6vh; 
-  }
+.custom-text {
+  font-size: 6vh; 
+}
+/*Small screens up to 576 pixels*/
+@media (max-width: 576px) {
 
-  @media (max-width: 576px) {
-
-    .custom-text {
-      font-size: 4.5vh; 
-    }
-  }
   .custom-text {
     font-size: 4.5vh; 
-    padding-top: 20vh;
-    font-style: italic;
-    font-weight: bold;
   }
-  .rounded.border {
-    overflow: hidden; 
-  }
-
-  .custom-text {
-    padding-top: 20vh; 
-    margin-bottom: 0; 
-  }
+}
+.custom-text {
+  font-size: 4.5vh; 
+  padding-top: 20vh;
+  font-style: italic;
+  font-weight: bold;
+  padding-top: 20vh; 
+}
+/*Footer elements*/
+.footertext {
+  color: #c0cdc0;
+}
+.listtext {
+  text-decoration: none;
+  color: #c0cdc0;
+}

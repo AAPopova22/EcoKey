@@ -1,31 +1,27 @@
-body{
+body {
     background-color: #777777;
     font-weight: bold;
     font-size: 20px;
 }
-.navbar-expand-lg{
+/*Navbar styling for large screens*/
+.navbar-expand-lg {
     background-color: #333333;  
     margin: auto;
 }
-.dropdown-item{
+.dropdown-item {
     background-color: gainsboro; 
     font-weight: bold;
 }
-.g-0{
+.g-0 {
     padding: 0;
-}
-.footertext{
-    color: #AAAAAA;
     text-decoration: none;
 }
-footer{
-    background-color: #333333;
-}
-h2{
+/*Text elements*/
+h2 {
     font-weight: bold;
     font-size: 40px;
 }
-h3{
+h3 {
     font-weight: bold;
     font-size: 30px;
 }
@@ -33,23 +29,28 @@ p{
     font-weight: bold;
     font-size: 20px;
 }
-.footer-desc {
-    font-weight: bold;
-    font-size: 20px;
-}
 hr {
     border: 2px solid #333333; 
     color: #333333;
     width: 100%;
-    opacity: 1;
+    opacity: 1; /*Set the opacity to 1 (fully opaque)*/
 }
-footer{
+footer {
     background-color: #333333;
     color: #AAAAAA;
     text-decoration: none;
     font-weight: bold;
 }
-.listtext{
+.listtext {
     color: #AAAAAA;
     text-decoration: none;
+}
+.footertext {
+    color: #c0cdc0;
+    font-size: 16px;
+  }
+.listtext {
+    text-decoration: none;
+    color: #c0cdc0;
+    font-size: 16px;
 }

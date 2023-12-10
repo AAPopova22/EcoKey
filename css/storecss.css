@@ -1,123 +1,45 @@
-.navbar{
+.navbar {
     margin: auto;
 }
-.dropdown-item{
+.dropdown-item {
     background-color: gainsboro; 
     font-weight: bold;
 }
-.subtitle-h1{
+/*The heading of the page*/
+.subtitle-h1 {
     font-weight: bold;
     text-align: center; 
     padding: 3vh;
     margin: 0;
 }
-.card{
+/*Card elements*/
+.card {
     border: solid 3px black;
-     border-radius: 1vh; 
-     padding: 0; 
-     margin-top: 1%; 
-     margin-left: 1vw;
-     font-weight: bold;
+    border-radius: 1vh; 
+    padding: 0; 
+    margin-top: 1%; 
+    margin-left: 1vw;
+    font-weight: bold;
 }
-.card-title{
+.card-title {
     font-size: 2.5vh;
     font-weight: bold;
 }
-.cardtext{
+.cardtext {
     font-weight: bold;
-}
-.footertext{
-    color: #c0cdc0;
-}
-.listtext{
-    text-decoration: none;
-    color: #c0cdc0;
-}
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 999;
-}
-button{
-    padding: 0;
-    border: 0;
-}
-.popup {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 1000px;
-    background-color: white;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-.hidden {
-    display: none;
-}
-
-.visible {
-    display: block;
-}
-
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 999;
-}
- #popup-1,
- #popup-2,
- #popup-3,
- #popup-4,
- #popup-5,
- #popup-6,
- #popup-7,
- #popup-8,
- #popup-9
- {
-    padding: 0;
-    border: 0.4vh solid black;
-    width: 85vw;
-
-}
-
-.g-0{
-    padding: 0;
 }
 .imgContainer {
     position: relative;
     text-align: center;
 }
-
-.arrowButton {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px;
-    cursor: pointer;
-    border: none;
-    background: none;
-    outline: none;
-}
-
-.leftArrow {
-    left: 8px;
-    font-weight: bold;
-    color: whitesmoke;
-}
-
-.rightArrow {
-    right: 8px;
-    font-weight: bold;
-    color: whitesmoke;
+.overlay {
+    position: fixed;
+    top: 0;  /*Align the top edge of the overlay with the top of the window*/
+    left: 0;  /*Align the left edge of the overlay with the left of the window*/
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
 }
 .popupOverlay {
     display: none;
@@ -127,6 +49,73 @@ button{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /*Center content horizontally*/
+    align-items: center; /*Center content vertically*/
+}
+button {
+    padding: 0;
+    border: 0;
+}
+.popup {
+    position: absolute;
+    top: 50%;  /*Vertically center*/
+    left: 50%;  /*Horizontally center*/
+    transform: translate(-50%, -50%); /*Center the popup using transform*/
+    max-width: 1000px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.hidden {
+    display: none;
+}
+.visible {
+    display: block;
+}
+/*Styling for multiple popups*/
+#popup-1,
+#popup-2,
+#popup-3,
+#popup-4,
+#popup-5,
+#popup-6,
+#popup-7,
+#popup-8,
+#popup-9
+ {
+    padding: 0;
+    border: 0.4vh solid black;
+    width: 85vw;
+}
+.g-0 {
+    padding: 0;
+}
+/*Arrows style*/
+.arrowButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /*Vertical centering*/
+    font-size: 20px;
+    cursor: pointer; /*Display pointer cursor on hover*/
+    border: none;
+    background: none;
+    outline: none;
+}
+.leftArrow {
+    left: 8px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.rightArrow {
+    right: 8px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+/*Footer elements*/
+.footertext {
+    color: #c0cdc0;
+}
+.listtext {
+    text-decoration: none;
+    color: #c0cdc0;
 }

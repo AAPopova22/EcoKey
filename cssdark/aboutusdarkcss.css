@@ -1,16 +1,14 @@
-body{
+body {
     background-color: #777777;
 }
-.navbar-expand-lg{
+/*Navbar styling for large screens*/
+.navbar-expand-lg {
     background-color: #333333;  
     margin: auto;
 }
-.dropdown-item{
+.dropdown-item {
     background-color: gainsboro; 
     font-weight: bold;
-}
-footer{
-    background-color: #333333;
 }
 .logo-image {
     width: 70px;
@@ -18,30 +16,36 @@ footer{
     overflow: hidden;
     margin-top: -6px;
 }
-.footertext{
-    color: #c0cdc0;
-}
-.listtext{
-    color: #c0cdc0;
-}
-.subtitle-h1{
+/*The main heading of the page*/
+.subtitle-h1 {
     font-weight: bold;
     text-align: center;
     padding: 3vh;
     margin: 0;
 }
-.g-0{
+.g-0 {
     padding: 0;
 }
-.card{
+/*Card elements*/
+.card {
     background-color: gainsboro;
     padding: 0;
     border: solid black;
     border-radius: 3px;
 }
-.card-title{
+.card-title {
     font-weight: bold;
 }
-.card-text{
+.card-text {
     font-weight: bold;
+}
+/*Footer elements*/
+footer {
+    background-color: #333333;
+}
+.footertext {
+    color: #c0cdc0;
+}
+.listtext {
+    color: #c0cdc0;
 }

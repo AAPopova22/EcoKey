@@ -1,18 +1,11 @@
 .body {
   margin: 0;
 }
-.navbar{
+.navbar {
   margin: auto;
 }
-.dropdown-item{
+.dropdown-item {
   font-weight: bold;
-}
-.footertext{
-  color: #c0cdc0;
-}
-.listtext{
-  text-decoration: none;
-  color: #c0cdc0;
 }
 #keyboard-container {
 
@@ -23,18 +16,24 @@
   margin-right: auto;
   margin-top: 20vh;
 }
-.keyboard{
+.keyboard {
   height: 300px;
   width:40vw;
 }
-
 .key {
   position: absolute;
   width: 60px;
   height: 60px;
   cursor: pointer;
 }
-#key1{
+#key1 {
   background-image: url(/images/Designer.png);
   background-size: cover;
+}
+.footertext {
+  color: #c0cdc0;
+}
+.listtext {
+  text-decoration: none;
+  color: #c0cdc0;
 }

@@ -4,12 +4,6 @@
     overflow: hidden;
     margin-top: -6px;
 }
-.footertext{
-    color: #c0cdc0;
-}
-.listtext{
-    color: #c0cdc0;
-}
 .subtitle-h1{
     font-weight: bold;
     text-align: center;
@@ -19,6 +13,7 @@
 .g-0{
     padding: 0;
 }
+/*Card Elements*/
 .card{
     padding: 0;
     border: solid black;
@@ -29,4 +24,11 @@
 }
 .card-text{
     font-weight: bold;
+}
+/*Footer Section*/
+.footertext{
+    color: #c0cdc0;
+}
+.listtext{
+    color: #c0cdc0;
 }
