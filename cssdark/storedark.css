@@ -25,7 +25,7 @@ body {
     margin-top: 1%; 
     margin-left: 1vw;
     font-weight: bold;
-    background-color: #c5c5c5;
+    background-color: #AAAAAA;
     max-width: 550px;
 }
 .card-title {
@@ -122,14 +122,31 @@ button {
     font-weight: bold;
     color: whitesmoke;
 }
+.container-fluid{
+    padding: 0;
+}
+h3{
+    color: #AAAAAA;
+}
+h4{
+    color: #AAAAAA;
+}
+.footer-desc{
+    color: #AAAAAA;
+}
+.listtext{
+    text-decoration: none;
+    color: #AAAAAA;
+
+}
 /*Footer elements*/
 .footertext {
-    color: #c0cdc0;
+    color: #AAAAAA;
 }
 footer {
     background-color: #333333;
 }
 .listfoot {
     text-decoration: none;
-    color: #c0cdc0;
+    color: #AAAAAA;
 }

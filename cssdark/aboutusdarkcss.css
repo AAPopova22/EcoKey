@@ -34,18 +34,34 @@ body {
     border-radius: 3px;
 }
 .card-title {
-    font-weight: bold;
+    font-weight: bold; 
+    color: black;
 }
 .card-text {
     font-weight: bold;
 }
+h3{
+    color: #AAAAAA;
+}
+h4{
+    color: #AAAAAA;
+}
+.footer-desc{
+    color: #AAAAAA;
+}
+.listtext{
+    text-decoration: none;
+    color: #AAAAAA;
+
+}
 /*Footer elements*/
+.footertext{
+    color: #AAAAAA;
+}
 footer {
     background-color: #333333;
 }
-.footertext {
-    color: #c0cdc0;
-}
-.listtext {
-    color: #c0cdc0;
+.listfoot {
+    text-decoration: none;
+    color: #AAAAAA;
 }
