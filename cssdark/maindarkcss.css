@@ -45,8 +45,8 @@ body {
     margin-right: auto;
     width: 80%; 
     height: 60vh; 
-    background-color:#749074; 
-    color: #bcd4bc;
+    background-color:#333333; 
+    color: #AAAAAA;
     margin-top: 10vh; 
     margin-bottom: 10vh;
     padding: 0;
@@ -73,7 +73,7 @@ body {
     transform: translate(0, -50%); /*Move the element up by 50% of its own height*/
 }
 .arrowbg {
-    background-color: whitesmoke;
+    background-color: #333333;
 }
 .leftArrow {
     left: 0;
@@ -84,13 +84,13 @@ body {
 .leftArrow {
     left: 8px;
     font-weight: bold;
-    color: gray;
+    color: #444444;
     height: 5vh;
 }
 .rightArrow {
     right: 8px;
     font-weight: bold;
-    color: gray;
+    color:  #444444;
 }
 /*Small screens up to 576 pixels*/
 @media (max-width: 576px) {

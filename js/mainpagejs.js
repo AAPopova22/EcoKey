@@ -1,4 +1,7 @@
-var images = ["https://media.sketchfab.com/models/90d61eec0c484332ab562c5f4eda6f52/thumbnails/7d86998c7e91461f82af31cdc05ed62c/1005b1912b5148e5aa4066ceebc86189.jpeg", "https://cannonkeys.com/cdn/shop/products/22_6850d63a-67b5-4def-ba6b-e9dc585a2e1d.jpg?v=1699889055, https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015"];
+var images = ["/images/eco1.png", 
+             "/images/eco2.png",
+            "/images/eco3.png",
+            "/images/eco4.png"];
             var currentIndex = 0;
     
             function displayImage(direction) {
@@ -13,22 +16,30 @@ var images = ["https://media.sketchfab.com/models/90d61eec0c484332ab562c5f4eda6f
                 document.getElementById("img").src = images[currentIndex];
             }
 
-var images1 = ["https://media.sketchfab.com/models/90d61eec0c484332ab562c5f4eda6f52/thumbnails/7d86998c7e91461f82af31cdc05ed62c/1005b1912b5148e5aa4066ceebc86189.jpeg", "https://cannonkeys.com/cdn/shop/products/22_6850d63a-67b5-4def-ba6b-e9dc585a2e1d.jpg?v=1699889055, https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015"];
-            var currentIndex1 = 0;
+var images1 = ["/images/cropped-christmas2.png",
+               "/images/cropped-christmas2 (1).png",
+               "/images/cropped-S168f07eee12d4f008b331c62cfd084b6j.png"];
+               var currentIndex1 = 0;
     
-            function displayImage1(direction) {
-                currentIndex1 += direction;
-    
-                if (currentIndex1 < 0) {
-                    currentIndex1 = images1.length - 1;
-                } else if (currentIndex1 >= images1.length) {
-                    currentIndex1 = 0;
-                }
-    
-                document.getElementById("img1").src = images1[currentIndex1];
-            }
+               function displayImage1(direction) {
+                   currentIndex1 += direction;
+       
+                   if (currentIndex1 < 0) {
+                       currentIndex1 = images1.length - 1;
+                   } else if (currentIndex1 >= images1.length) {
+                       currentIndex1 = 0;
+                   }
+       
+                   document.getElementById("img1").src = images1[currentIndex1];
+               }
+   
 
-var images2 = ["https://media.sketchfab.com/models/90d61eec0c484332ab562c5f4eda6f52/thumbnails/7d86998c7e91461f82af31cdc05ed62c/1005b1912b5148e5aa4066ceebc86189.jpeg", "https://cannonkeys.com/cdn/shop/products/22_6850d63a-67b5-4def-ba6b-e9dc585a2e1d.jpg?v=1699889055, https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015"];
+var images2 = ["/images/cropped-minima0.png", 
+                "/images/cropped-minina1.png",
+                "/images/cropped-minina2.png",
+                "/images/cropped-minina3.png",
+                "/images/cropped-minina4.png",
+            ];
             var currentIndex2 = 0;
     
             function displayImage2(direction) {
@@ -43,7 +54,10 @@ var images2 = ["https://media.sketchfab.com/models/90d61eec0c484332ab562c5f4eda6
                 document.getElementById("img2").src = images2[currentIndex2];
             }
 
-var images3 = ["https://media.sketchfab.com/models/90d61eec0c484332ab562c5f4eda6f52/thumbnails/7d86998c7e91461f82af31cdc05ed62c/1005b1912b5148e5aa4066ceebc86189.jpeg", "https://cannonkeys.com/cdn/shop/products/22_6850d63a-67b5-4def-ba6b-e9dc585a2e1d.jpg?v=1699889055, https://spaceholdings.net/cdn/shop/files/GMK-CYL-DANDY-DAISY-ALEXOTOS_PICTURE_DAISY-BANDEROLE.jpg?v=1691518015"];
+var images3 = ["/images/cropped-oceanic1.png", 
+               "/images/cropped-oceanic2.png",
+               "/images/cropped-oceanic3.png",
+               "/images/cropped-oceanic.png"];
             var currentIndex3 = 0;
     
             function displayImage3(direction) {
