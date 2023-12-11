@@ -8,14 +8,14 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha34-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"crossorigin="anonymous">
     <!-- External Stylesheets CSS-->
-    <link rel="stylesheet" href="/css/allcss.css">
-    <link rel="stylesheet" href="/css/storecss.css">
+    <link rel="stylesheet" href="../css/allcss.css">
+    <link rel="stylesheet" href="../css/storecss.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- External JavaScript Files JS-->
-    <script src="/js/aljs.js"></script>
-    <script src="/js/storejs.js"></script>
+    <script src="../js/aljs.js"></script>
+    <script src="../js/storejs.js"></script>
     <!-- Website icon and Title on The Webbrowser bar-->
-    <link rel = "icon" href ="/images/Logo.png.png" type = "image/x-icon"> 
+    <link rel = "icon" href ="../images/Logo.png.png" type = "image/x-icon"> 
     <title>EcoKey</title>
 </head>
 
@@ -25,7 +25,7 @@
             <div class="container-fluid">
                 <a class="navbar-brand">
                     <div class="logo-image">
-                        <img src="/images/Logo.png.png" class="img-fluid">
+                        <img src="../images/Logo.png.png" class="img-fluid">
                     </div>
                 </a>
                   <!-- Button with Bootstrap class for toggling navigation collapse -->
@@ -35,17 +35,17 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" aria-current="page" href="/html code/mainpage.html">Home</a>
-                        <a class="nav-link active" href="/html code/store.html">Store</a>
-                        <a class="nav-link" href="/html code/aboutus.html">About us</a>
-                        <a class="nav-link" href="/html code/recycling.html">Recycling</a> 
+                        <a class="nav-link" aria-current="page" href="../html code/mainpage.html">Home</a>
+                        <a class="nav-link active" href="../html code/store.html">Store</a>
+                        <a class="nav-link" href="../html code/aboutus.html">About us</a>
+                        <a class="nav-link" href="../html code/recycling.html">Recycling</a> 
                     <!-- Dropdown Menu for Themes -->
                         <div class="dropdown">
                           <button class="btn nav-link" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Themes</button>
                           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                             <li><a class="dropdown-item  active" style=" background-color: gainsboro;">E c o  G r e e n</a></li>
-                            <li><a class="dropdown-item">Light</a></li>
-                            <li><a class="dropdown-item" href="/htmldark/storedarktheme.html">Dark</a></li>
+                            <li><a class="dropdown-item" href="../htmllight/storepagelighttheme.html">Light</a></li>
+                            <li><a class="dropdown-item" href="../htmldark/storedarktheme.html">Dark</a></li>
                           </ul>
                         </div>  
                     </div>
@@ -60,7 +60,7 @@
       <div class="row justify-content-evenly">
           <div class="card md-12" style="max-width:500px;">
             <!-- Popup Trigger Button with Image -->
-              <button onclick="openPopup(1)"><img src="/images/imgstore1.jpg" class="card-img-top" alt="Keycaps"></button> 
+              <button onclick="openPopup(1)"><img src="../images/imgstore1.jpg" class="card-img-top" alt="Keycaps"></button> 
               <div class="card-body">
                   <h5 class="card-title">Green & Black</h5>
                   <p class="card-text"></p>
@@ -75,7 +75,7 @@
                         <!-- Navigation Arrows for Image Slideshow -->
                           <div class="imgContainer">
                              <button class="arrowButton leftArrow" onclick="displayImageCard1(-1)">&lt;</button>
-                              <img id="imgCard1" src="/images/imgstore2.jpg" class="img-fluid" class="slideshowImage"  alt="a great image">
+                              <img id="imgCard1" src="../images/imgstore2.jpg" class="img-fluid" class="slideshowImage"  alt="a great image">
                              <button class="arrowButton rightArrow" onclick="displayImageCard1(1)">&gt;</button>
                           </div>
                       </div>
@@ -94,7 +94,7 @@
         <!-- Responsive Card2 -->
         <div class="card md-12" style="max-width:500px;">
              <!-- Popup Trigger Button with Image -->
-          <button onclick="openPopup(2)"><img src="/images/imgstore4.jpg" class="card-img-top" alt="Keycaps"></button>
+          <button onclick="openPopup(2)"><img src="../images/imgstore4.jpg" class="card-img-top" alt="Keycaps"></button>
           <div class="card-body">
               <h5 class="card-title">Gradient</h5>
               <p class="card-text"></p>
@@ -109,7 +109,7 @@
                      <!-- Navigation Arrows for Image Slideshow -->
                       <div class="imgContainer">
                          <button class="arrowButton leftArrow" onclick="displayImageCard2(-1)">&lt;</button>
-                          <img id="imgCard2" src="/images/imgstore5.jpg" class="img-fluid" class="slideshowImage"  alt="a great image">
+                          <img id="imgCard2" src="../images/imgstore5.jpg" class="img-fluid" class="slideshowImage"  alt="a great image">
                          <button class="arrowButton rightArrow" onclick="displayImageCard2(1)">&gt;</button>
                       </div>
                   </div>
@@ -128,7 +128,7 @@
       <!-- Responsive Card3 -->
           <div class="card md-12" style="max-width:500px;">
              <!-- Popup Trigger Button with Image -->
-            <button onclick="openPopup(3)"><img src="/images/imgstore7.jpg" class="card-img-top" alt="Keycaps"></button>
+            <button onclick="openPopup(3)"><img src="../images/imgstore7.jpg" class="card-img-top" alt="Keycaps"></button>
             <div class="card-body">
                 <h5 class="card-title">Nature</h5>
                 <p class="card-text"></p>
@@ -144,7 +144,7 @@
                     <!-- Navigation Arrows for Image Slideshow -->
                   <div class="imgContainer">
                      <button class="arrowButton leftArrow" onclick="displayImageCard3(-1)">&lt;</button>
-                      <img id="imgCard3" src="/images/imgstore8.jpg" class="img-fluid" class="slideshowImage"  alt="a great image">
+                      <img id="imgCard3" src="../images/imgstore8.jpg" class="img-fluid" class="slideshowImage"  alt="a great image">
                      <button class="arrowButton rightArrow" onclick="displayImageCard3(1)">&gt;</button>
                   </div>
               </div>
@@ -166,7 +166,7 @@
   <div class="row justify-content-evenly">
       <div class="card md-12" style="max-width:500px;">
          <!-- Popup Trigger Button with Image -->
-        <button onclick="openPopup(4)"><img src="/images/cropped-eco2.png" class="card-img-top" alt="Keycaps"></button>
+        <button onclick="openPopup(4)"><img src="../images/cropped-eco2.png" class="card-img-top" alt="Keycaps"></button>
         <div class="card-body">
             <h5 class="card-title">Eco-board</h5>
             <p class="card-text"></p>
@@ -181,7 +181,7 @@
                   <!-- Navigation Arrows for Image Slideshow -->
                   <div class="imgContainer">
                      <button class="arrowButton leftArrow" onclick="displayImageCard4(-1)">&lt;</button>
-                      <img id="imgCard4" src="/images/cropped-eco2.png" class="img-fluid" class="slideshowImage"  alt="a great image">
+                      <img id="imgCard4" src="../images/cropped-eco2.png" class="img-fluid" class="slideshowImage"  alt="a great image">
                      <button class="arrowButton rightArrow" onclick="displayImageCard4(1)">&gt;</button>
                   </div>
               </div>
@@ -200,7 +200,7 @@
 <!-- Responsive Card2 -->
     <div class="card md-12" style="max-width:500px;">
          <!-- Popup Trigger Button with Image -->
-      <button onclick="openPopup(5)"><img src="/images/imgstore10.jpg" class="card-img-top" alt="Keycaps"></button>
+      <button onclick="openPopup(5)"><img src="../images/imgstore10.jpg" class="card-img-top" alt="Keycaps"></button>
       <div class="card-body">
           <h5 class="card-title">Mint</h5>
           <p class="card-text"></p>
@@ -215,7 +215,7 @@
                     <!-- Navigation Arrows for Image Slideshow -->
                   <div class="imgContainer">
                      <button class="arrowButton leftArrow" onclick="displayImageCard5(-1)">&lt;</button>
-                      <img id="imgCard5" src="/images/imgstore11.jpg" class="img-fluid" class="slideshowImage"  alt="a great image">
+                      <img id="imgCard5" src="../images/imgstore11.jpg" class="img-fluid" class="slideshowImage"  alt="a great image">
                      <button class="arrowButton rightArrow" onclick="displayImageCard5(1)">&gt;</button>
                   </div>
               </div>
@@ -234,7 +234,7 @@
 <!-- Responsive Card3 -->
       <div class="card md-12" style="max-width:500px;">
          <!-- Popup Trigger Button with Image -->
-        <button onclick="openPopup(6)"><img src="/images/cropped-cropped-christmas2 (1).png" class="card-img-top" alt="Keycaps"></button>
+        <button onclick="openPopup(6)"><img src="../images/cropped-cropped-christmas2 (1).png" class="card-img-top" alt="Keycaps"></button>
         <div class="card-body">
             <h5 class="card-title">Holiday Cheer</h5>
             <p class="card-text"></p>
@@ -250,7 +250,7 @@
              <!-- Navigation Arrows for Image Slideshow -->
               <div class="imgContainer">
                  <button class="arrowButton leftArrow" onclick="displayImageCard6(-1)">&lt;</button>
-                  <img id="imgCard6"  src="/images/cropped-cropped-christmas2.png" class="img-fluid" class="slideshowImage"  alt="a great image">
+                  <img id="imgCard6"  src="../images/cropped-cropped-christmas2.png" class="img-fluid" class="slideshowImage"  alt="a great image">
                  <button class="arrowButton rightArrow" onclick="displayImageCard6(1)">&gt;</button>
               </div>
           </div>
@@ -272,7 +272,7 @@
   <div class="row justify-content-evenly">
       <div class="card md-12" style="max-width:500px;">
          <!-- Popup Trigger Button with Image -->
-        <button onclick="openPopup(7)"><img src="/images/cropped-cropped-minima0.png" class="card-img-top" alt="Keycaps"></button>
+        <button onclick="openPopup(7)"><img src="../images/cropped-cropped-minima0.png" class="card-img-top" alt="Keycaps"></button>
         <div class="card-body">
             <h5 class="card-title">Minima</h5>
             <p class="card-text"></p>
@@ -287,7 +287,7 @@
                  <!-- Navigation Arrows for Image Slideshow -->
                   <div class="imgContainer">
                      <button class="arrowButton leftArrow" onclick="displayImageCard7(-1)">&lt;</button>
-                      <img id="imgCard7" src="/images/cropped-cropped-minina2.png" class="img-fluid" class="slideshowImage"  alt="a great image">
+                      <img id="imgCard7" src="../images/cropped-cropped-minina2.png" class="img-fluid" class="slideshowImage"  alt="a great image">
                      <button class="arrowButton rightArrow" onclick="displayImageCard7(1)">&gt;</button>
                   </div>
               </div>
@@ -306,7 +306,7 @@
 <!-- Responsive Card2 -->
     <div class="card md-12" style="max-width:500px;">
          <!-- Popup Trigger Button with Image -->
-      <button onclick="openPopup(8)"><img src="/images/cropped-cropped-oceanic.png" class="card-img-top" alt="Keycaps"></button>
+      <button onclick="openPopup(8)"><img src="../images/cropped-cropped-oceanic.png" class="card-img-top" alt="Keycaps"></button>
       <div class="card-body">
           <h5 class="card-title">Oceanic</h5>
           <p class="card-text"></p>
@@ -321,7 +321,7 @@
                 <!-- Navigation Arrows for Image Slideshow -->
                   <div class="imgContainer">
                      <button class="arrowButton leftArrow" onclick="displayImageCard8(-1)">&lt;</button>
-                      <img id="imgCard8" src="/images/cropped-cropped-oceanic1.png" class="img-fluid" class="slideshowImage"  alt="a great image">
+                      <img id="imgCard8" src="../images/cropped-cropped-oceanic1.png" class="img-fluid" class="slideshowImage"  alt="a great image">
                      <button class="arrowButton rightArrow" onclick="displayImageCard8(1)">&gt;</button>
                   </div>
               </div>
@@ -340,7 +340,7 @@
 <!-- Responsive Card3 -->
       <div class="card md-12" style="max-width:500px;">
          <!-- Popup Trigger Button with Image -->
-        <button onclick="openPopup(9)"><img src="/images/imgstore13.jpg" class="card-img-top" alt="Keycaps"></button>
+        <button onclick="openPopup(9)"><img src="../images/imgstore13.jpg" class="card-img-top" alt="Keycaps"></button>
         <div class="card-body">
             <h5 class="card-title">EcoGlow Elite</h5>
             <p class="card-text"></p>
@@ -356,7 +356,7 @@
              <!-- Navigation Arrows for Image Slideshow -->
               <div class="imgContainer">
                  <button class="arrowButton leftArrow" onclick="displayImageCard9(-1)">&lt;</button>
-                  <img id="imgCard9"  src="/images/imgstore14.jpg" class="img-fluid" class="slideshowImage"  alt="a great image">
+                  <img id="imgCard9"  src="../images/imgstore14.jpg" class="img-fluid" class="slideshowImage"  alt="a great image">
                  <button class="arrowButton rightArrow" onclick="displayImageCard9(1)">&gt;</button>
               </div>
           </div>
