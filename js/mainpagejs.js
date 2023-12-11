@@ -1,7 +1,7 @@
-var images = ["/images/eco1.png", 
-             "/images/eco2.png",
-            "/images/eco3.png",
-            "/images/eco4.png"];
+var images = ["../images/eco1.png", 
+             "../images/eco2.png",
+            "../images/eco3.png",
+            "../images/eco4.png"];
             var currentIndex = 0;
     
             function displayImage(direction) {
@@ -16,9 +16,9 @@ var images = ["/images/eco1.png",
                 document.getElementById("img").src = images[currentIndex];
             }
 
-var images1 = ["/images/cropped-christmas2.png",
-               "/images/cropped-christmas2 (1).png",
-               "/images/cropped-S168f07eee12d4f008b331c62cfd084b6j.png"];
+var images1 = ["../images/cropped-christmas2.png",
+               "../images/cropped-christmas2 (1).png",
+               "../images/cropped-S168f07eee12d4f008b331c62cfd084b6j.png"];
                var currentIndex1 = 0;
     
                function displayImage1(direction) {
@@ -34,10 +34,10 @@ var images1 = ["/images/cropped-christmas2.png",
                }
    
 
-var images2 = ["/images/cropped-minima0.png", 
-                "/images/cropped-minina2.png",
-                "/images/cropped-minina3.png",
-                "/images/cropped-minina4.png",
+var images2 = ["../images/cropped-minima0.png", 
+                "../images/cropped-minina2.png",
+                "../images/cropped-minina3.png",
+                "../images/cropped-minina4.png",
             ];
             var currentIndex2 = 0;
     
@@ -53,10 +53,10 @@ var images2 = ["/images/cropped-minima0.png",
                 document.getElementById("img2").src = images2[currentIndex2];
             }
 
-var images3 = ["/images/cropped-oceanic1.png", 
-               "/images/cropped-oceanic2.png",
-               "/images/cropped-oceanic3.png",
-               "/images/cropped-oceanic.png"];
+var images3 = ["../images/cropped-oceanic1.png", 
+               "../images/cropped-oceanic2.png",
+               "../images/cropped-oceanic3.png",
+               "../images/cropped-oceanic.png"];
             var currentIndex3 = 0;
     
             function displayImage3(direction) {

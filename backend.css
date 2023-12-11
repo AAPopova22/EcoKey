@@ -1,0 +1,82 @@
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+}
+ #popup-1{
+    padding: 0;
+    border: 0.4vh solid black;
+}
+
+.g-0{
+    padding: 0;
+}
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1000px;
+    background-color: white;
+    padding: 20px;
+}
+.imgContainer {
+    position: relative; 
+    text-align: center;
+}
+
+.arrowButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.leftArrow {
+    left: 8px;
+    font-weight: bold;
+    color: gray;
+    height: 5vh;
+}
+
+.arrowbg{
+    background-color: whitesmoke;
+}
+.rightArrow {
+    right: 8px;
+    font-weight: bold;
+    color: gray;
+}
+
+
+.card {
+    max-width: 550px;
+}
+
+.popupOverlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+}
