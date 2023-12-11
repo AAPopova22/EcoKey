@@ -35,7 +35,6 @@ var images1 = ["/images/cropped-christmas2.png",
    
 
 var images2 = ["/images/cropped-minima0.png", 
-                "/images/cropped-minina1.png",
                 "/images/cropped-minina2.png",
                 "/images/cropped-minina3.png",
                 "/images/cropped-minina4.png",

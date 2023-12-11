@@ -66,7 +66,9 @@ function closePopupCard3() {
 
 var imagesCard4 = [
     "/images/cropped-eco3.png",
-    "/images/cropped-eco4.png"
+    "/images/cropped-eco4.png",
+    "/images/cropped-eco1.png",
+    "/images/cropped-eco2.png"
 ];
 var currentIndexCard4 = 0;
 
@@ -106,7 +108,8 @@ function closePopupCard5() {
 
 var imagesCard6 = [
     "/images/cropped-cropped-christmas2.png",
-    "/images/cropped-cropped-S168f07eee12d4f008b331c62cfd084b6j.png"
+    "/images/cropped-cropped-S168f07eee12d4f008b331c62cfd084b6j.png",
+    "/images/cropped-cropped-christmas2 (1).png",
 ];
 var currentIndexCard6 = 0;
 
@@ -125,7 +128,9 @@ function closePopupCard6() {
 }
 
 var imagesCard7 = [
+    "/images/cropped-cropped-minina0.png",
     "/images/cropped-cropped-minina2.png",
+    "/images/cropped-cropped-minina4.png",
     "/images/cropped-cropped-minina1.png"
 ];
 var currentIndexCard7 = 0;
@@ -146,7 +151,8 @@ function closePopupCard7() {
 
 var imagesCard8 = [
     "/images/cropped-cropped-oceanic1.png",
-    "/images/cropped-cropped-oceanic2.png"
+    "/images/cropped-cropped-oceanic2.png",
+    "/images/cropped-cropped-oceanic3.png",
 ];
 var currentIndexCard8 = 0;
 
