@@ -28,9 +28,10 @@
     font-size: 20px;
 }
 /*Footer Section*/
-.footertext{
+.footertext {
     color: #c0cdc0;
-}
-.listtext{
+  }
+  .listtext {
+    text-decoration: none;
     color: #c0cdc0;
-}
+  }

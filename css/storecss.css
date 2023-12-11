@@ -101,7 +101,7 @@ button {
     top: 50%;
     transform: translateY(-50%); /*Vertical centering*/
     font-size: 20px;
-    cursor: pointer; /*Display pointer cursor on hover*/
+    cursor: pointer; /*Change cursor on hover*/
     border: none;
     background: none;
     outline: none;
@@ -115,6 +115,9 @@ button {
     right: 8px;
     font-weight: bold;
     color: whitesmoke;
+}
+.container-fluid{
+    padding: 0;
 }
 /*Footer elements*/
 .footertext {

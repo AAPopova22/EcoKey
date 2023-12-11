@@ -85,13 +85,6 @@
 .custom-text {
   font-size: 6vh; 
 }
-/*Small screens up to 576 pixels*/
-@media (max-width: 576px) {
-
-  .custom-text {
-    font-size: 4.5vh; 
-  }
-}
 .custom-text {
   font-size: 4.5vh; 
   padding-top: 20vh;

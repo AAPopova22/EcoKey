@@ -112,6 +112,9 @@ body {
 .custom-text {
     font-size: 6vh; 
 }
+.container-fluid{
+    padding: 0;
+}
 /*Footer elemets*/
 .footertext {
     color: #AAAAAA;
