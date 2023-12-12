@@ -15,8 +15,8 @@ EcoKey is a green tech company that makes keyboards and tech accessories using r
 ### Team Documentation
   - [Team Documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/aapopova22_codingburgas_bg/EXX3fL207QxGtKMiUDS-qqkB7OipmWDVGN0S6f0zZlhudQ?e=fqQbdF)
 
-### Presenting
-  - [Team Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/aapopova22_codingburgas_bg/EToqGRCOUWxKuSuA_cvIoCABrgtyEAlG6IGe_vy0hzuiRA?e=d1eiBM)
+### Presentation
+  - [Team Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/aapopova22_codingburgas_bg/EToqGRCOUWxKuSuA_cvIoCABrgtyEAlG6IGe_vy0hzuiRA?e=GdjvBE)
 
 
 ## 🚀 Languages and tools used:
