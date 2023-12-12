@@ -49,6 +49,10 @@ body {
 .h4foot{
     color: #eeeeee;
 }
+.mb-30{
+    text-decoration: none;
+     color: #eeeeee;
+}
 .footertext {
     color: #eeeeee;
     font-weight: bold;

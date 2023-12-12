@@ -16,9 +16,12 @@ body {
     text-decoration: none;
 }
 /*Text elements*/
-h2 {
+h3 {
     font-weight: bold;
-    font-size: 40px;
+    color: #444444;
+}
+h2{
+    font-weight: bold;
     color: #444444;
 }
 .heading3{
@@ -57,4 +60,7 @@ footer {
     text-decoration: none;
     color: #eeeeee;
     font-size: 16px;
+}
+.h3-text-rights{
+    color: #eeeeee;
 }
