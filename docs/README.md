@@ -8,7 +8,7 @@ EcoKey is a green tech company that makes keyboards and tech accessories using r
 * **Nikolai Kalashnik** - *Front-end developer* 
 * **Polina Dineva** - *Front-end developer* 
 * **Arina Popova** - *Scrumtrainer* 
-* **Maria Bakumtseva** - *Designer* [
+* **Maria Bakumtseva** - *Designer*
   
 ## 📄 Documents
 
@@ -25,4 +25,4 @@ EcoKey is a green tech company that makes keyboards and tech accessories using r
     <img src="/images/readme/html.png" width="50px" height="50px"> 
     <img src="/images/readme/css.png" width="50px" height="50px"> 
     <img src="/images/readme/Bootstrap.png" width="60px" height="48px">
-    
+</p>
