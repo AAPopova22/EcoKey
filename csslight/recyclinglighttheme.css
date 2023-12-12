@@ -1,0 +1,60 @@
+body {
+    font-weight: bold;
+    font-size: 20px;
+}
+/*Navbar styling for large screens*/
+.navbar-expand-lg {
+    background-color: #888888;  
+    margin: auto;
+}
+.dropdown-item {
+    background-color: gainsboro; 
+    font-weight: bold;
+}
+.g-0 {
+    padding: 0;
+    text-decoration: none;
+}
+/*Text elements*/
+h2 {
+    font-weight: bold;
+    font-size: 40px;
+    color: #444444;
+}
+.heading3{
+    font-weight: bold;
+    font-size: 30px;
+    color: #444444;
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.text1{
+    color: #444444;
+}
+hr {
+    border: 2px solid #c7c7c7; 
+    color: #c7c7c7;
+    width: 100%;
+    opacity: 1; /*Set the opacity to 1 (fully opaque)*/
+}
+footer {
+    background-color: #c7c7c7;
+    color: #eeeeee;
+    text-decoration: none;
+    font-weight: bold;
+}
+.listtext {
+    color: #eeeeee;
+    text-decoration: none;
+}
+.footertext {
+    color: #eeeeee;
+    font-size: 16px;
+  }
+.listtext {
+    text-decoration: none;
+    color: #eeeeee;
+    font-size: 16px;
+}

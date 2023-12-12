@@ -112,10 +112,16 @@ body {
 .custom-text {
     font-size: 6vh; 
 }
-.container-fluid{
+.containercl{
     padding: 0;
 }
 /*Footer elemets*/
+.h3foot{
+    color: #AAAAAA;
+}
+.h4foot{
+    color: #AAAAAA;
+}
 .footertext {
     color: #AAAAAA;
     font-weight: bold;
@@ -123,7 +129,11 @@ body {
 footer {
     background-color: #333333;
 }
-.listfoot {
+.listtext {
+    text-decoration: none;
+     color: #AAAAAA;
+}
+.footer-desc{
     text-decoration: none;
      color: #AAAAAA;
 }

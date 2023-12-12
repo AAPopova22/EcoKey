@@ -38,6 +38,9 @@ body {
     height: 25vh;
     border: 3px solid black;
 }
+.containercl{
+    padding: 0;
+}
 /*The Main Quotec container style*/
 .rounded {
     text-align: center;
@@ -113,9 +116,6 @@ body {
 }
 .custom-text {
     font-size: 6vh; 
-}
-.container-fluid{
-    padding: 0;
 }
 /*Footer elemets*/
 .h3foot{

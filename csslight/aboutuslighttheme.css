@@ -1,0 +1,62 @@
+body {
+    background-color: #ffffff;
+}
+/*Navbar styling for large screens*/
+.navbar-expand-lg {
+    background-color: #c7c7c7;  
+    margin: auto;
+}
+.dropdown-item {
+    background-color: gainsboro; 
+    font-weight: bold;
+}
+.logo-image {
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    margin-top: -6px;
+}
+/*The main heading of the page*/
+.subtitle-h1 {
+    font-weight: bold;
+    text-align: center;
+    padding: 3vh;
+    margin: 0;
+}
+.g-0 {
+    padding: 0;
+}
+/*Card elements*/
+.card {
+    background-color: gainsboro;
+    padding: 0;
+    border: solid black;
+    border-radius: 3px;
+}
+.card-title {
+    font-weight: bold; 
+    color: black;
+    font-size:35px ;
+}
+.card-text {
+    font-weight: bold;
+    font-size: 20px;
+}
+/*Footer elemets*/
+.h3foot{
+    color: #eeeeee;
+}
+.h4foot{
+    color: #eeeeee;
+}
+.footertext {
+    color: #eeeeee;
+    font-weight: bold;
+}
+footer {
+    background-color: #c7c7c7;
+}
+.listtext {
+    text-decoration: none;
+    color: #eeeeee;
+}

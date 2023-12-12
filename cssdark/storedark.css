@@ -39,6 +39,9 @@ body {
     position: relative;
     text-align: center;
 }
+.containercl{
+    padding: 0;
+}
 .overlay {
     position: fixed;
     top: 0; /*Align the top edge of the overlay with the top of the window*/
@@ -121,9 +124,6 @@ button {
     right: 8px;
     font-weight: bold;
     color: whitesmoke;
-}
-.container-fluid{
-    padding: 0;
 }
 h3{
     color: #AAAAAA;

@@ -25,6 +25,9 @@
   align-items: center;
   position: relative;
 }
+.containercl{
+  padding: 0;
+}
 /*The heading of the page*/
 .bestsell {
   margin-top: 0.5vh;
