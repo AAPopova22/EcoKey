@@ -32,12 +32,15 @@ body {
 .g-0 {
     padding: 0;
 }
-.animation {
+.animation{
+    background-image: url(../images/Keycaps-cropped.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 8vh;
     width: 100%;
-    height: 25vh;
+    height: 20vh;
     border: 3px solid black;
-}
+  }
 /*The Main Quotec container style*/
 .rounded {
     text-align: center;

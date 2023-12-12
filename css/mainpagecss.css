@@ -32,12 +32,6 @@
 .bestsell {
   margin-top: 0.5vh;
 }
-.animation {
-  margin-top: 8vh;
-  width: 100%;
-  height: 25vh;
-  border: 3px solid black;
-}
 /*The Main Quotec container style*/
 .rounded {
   text-align: center;
@@ -94,6 +88,15 @@
   font-style: italic;
   font-weight: bold;
   padding-top: 20vh; 
+}
+.animation{
+  background-image: url(../images/Keycaps-cropped.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 8vh;
+  width: 100%;
+  height: 20vh;
+  border: 3px solid black;
 }
 /*Footer elements*/
 .footertext {
